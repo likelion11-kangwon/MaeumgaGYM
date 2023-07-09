@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'omyu_pretty';
+}
+
+.header {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    padding: 10px;
+	border : 1px solid #ccc;
+}
+
+.logo {
+	padding-right: 200px;
+	width: 80px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.nav-item {
+    margin-right: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.nav-item a {
+	text-decoration: none;
+	color: #000;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+	padding-left: 50px;
+}
+
+.search {
+    position: relative;
+    margin-right: 20px;
+}
+
+.search input {
+    padding-right: 30px;
+	padding-left: 10px;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 200px
+}
+
+.search img {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 1900px) {
+	.logo {
+		padding-right: 100px;
+		width: 80px;
+	}
+
+	.nav-list {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.nav-item {
+		margin-right: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.search-container {
+		padding-left: 50px;
+	}
+
+	.search {
+		margin-right: 20px;
+	}
+
+	.search input {
+		padding-right: 30px;
+		padding-left: 10px;
+		height: 30px;
+		width: 100px;
+	}
+
+	.search img {
+		right: 5px;
+		top: 50%;
+		width: 20px;
+		height: 20px;
+	}
+
+	.login-button {
+		width : 80px;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 1500px) {
+	.logo {
+		padding-right: 40px;
+		width: 50px;
+	}
+
+	.nav-list {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.nav-item {
+		margin-right: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.search-container {
+		padding-left: 50px;
+	}
+
+	.search {
+		margin-right: 20px;
+	}
+
+	.search input {
+		padding-right: 30px;
+		padding-left: 10px;
+		height: 30px;
+		width: 100px;
+	}
+
+	.search img {
+		right: 5px;
+		top: 50%;
+		width: 20px;
+		height: 20px;
+	}
+
+	.login-button {
+		width: 80px;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 900px) {
+	.logo {
+		padding-right: 5px;
+		width: 30px;
+	}
+
+	.nav-list {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.nav-item {
+		margin-right: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 13px;
+	}
+
+	.search-container {
+		padding-left: 5px;
+	}
+
+	.search {
+		margin-right: 5px;
+	}
+
+	.search input {
+		padding-right: 5px;
+		padding-left: 10px;
+		height: 30px;
+		width: 100px;
+	}
+
+	.search img {
+		right: 5px;
+		top: 50%;
+		width: 20px;
+		height: 20px;
+	}
+
+	.login-button {
+		width: 70px;
+		font-size: 5px;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 450px) {
+	.logo {
+		padding-right: 2px;
+		width: 30px;
+	}
+
+	.nav-list {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.nav-item {
+		margin-right: 2px;
+		padding-left: 2px;
+		padding-right: 2px;
+		font-size: 5px;
+	}
+
+	.search-container {
+		padding-left: 5px;
+	}
+
+	.search {
+		margin-right: 5px;
+	}
+
+	.search input {
+		padding-right: 5px;
+		padding-left: 10px;
+		height: 30px;
+		width: 50px;
+		font-size: 8px;
+	}
+
+	.search img {
+		right: 5px;
+		top: 50%;
+		width: 15px;
+		height: 15px;
+	}
+
+	.login-button {
+		width: 30px;
+		font-size: 5px;
+		cursor: pointer;
+	}
+}
