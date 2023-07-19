@@ -39,7 +39,7 @@ public class Member {
     private String phone;
 
     @Column(name = "score")
-    private int score;  //평판
+    private float score;  //평판
 
     @CreatedDate
     @Column(name = "create_date", updatable = false)
